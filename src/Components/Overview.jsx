@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { Styles } from "../utils/Style";
 import { technologies, services } from "../Constants/Constants";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import "./styles.css";
 
 const Overview = () => {
@@ -43,6 +43,19 @@ const Overview = () => {
                 <div className="m-5 text-violet-500">{service.title}</div>
               </div>
             </Tilt>
+          </div>
+        ))}
+      </div>
+      <div className="flex flex-wrap justify-center items-center">
+        {technologies.map((technology) => (
+          <div
+            key={technology.name}
+            className="flex flex-col items-center justify-between m-4 mt-5 h-[100px] w-[100px] rounded-3xl shadow-2xl border-[1px] border-violet-400 hover:shadow-orange-300"
+          >
+            <img src={technology.icon} alt={technology.name} className="mt-2" />
+            <div className="text-violet-600 flex justify-center mb-2">
+              {technology.name}
+            </div>
           </div>
         ))}
       </div>
