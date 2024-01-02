@@ -1,5 +1,6 @@
 import React from "react";
 import { Styles } from "../utils/Style";
+import ContactImage from "../assets/contact.jpg"
 
 const Contact = () => {
   return (
@@ -58,7 +59,7 @@ const Contact = () => {
             </div>
             <div className="lg:w-[50%]">
               <img
-                src="https://cdn.vectorstock.com/i/1000x1000/24/28/graphic-cartoon-character-online-education-vector-35482428.webp"
+                src={ContactImage}
                 alt="contact"
                 className="lg:w-[50%]"
               />
