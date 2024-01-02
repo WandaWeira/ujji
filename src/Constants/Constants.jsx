@@ -31,7 +31,8 @@ const technologies = [
 const projects = [
   {
     name: "Music App",
-    description: " here is the description of the project",
+    description:
+      " here is the description of the project lorem2000here is the description of the project lorem2000here is the description of the project lorem2000",
     tags: [
       {
         name: "React",
@@ -42,7 +43,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "https://img.icons8.com/color/48/000000/music-app.png",
+    image: "https://img.icons8.com/?size=48&id=UECmBSgBOvPT&format=png",
     source_code_link: "https://github.com/kyle-mccarthy/music-app",
     source_deploy_link: "https://music-app-kyle-mccarthy.netlify.app/",
   },
@@ -59,7 +60,24 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "https://img.icons8.com/color/48/000000/music-app.png",
+    image: "https://img.icons8.com/?size=48&id=13441&format=png",
+    source_code_link: "https://github.com/kyle-mccarthy/music-app",
+    source_deploy_link: "https://music-app-kyle-mccarthy.netlify.app/",
+  },
+  {
+    name: "Music App",
+    description: " here is the description of the project",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "https://img.icons8.com/?size=48&id=UECmBSgBOvPT&format=png",
     source_code_link: "https://github.com/kyle-mccarthy/music-app",
     source_deploy_link: "https://music-app-kyle-mccarthy.netlify.app/",
   },
