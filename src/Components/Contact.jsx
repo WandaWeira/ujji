@@ -3,10 +3,10 @@ import { Styles } from "../utils/Style";
 
 const Contact = () => {
   return (
-    <div>
+    <>
       <div
         className="flex-row items-center pl-5 justify-center pt-3"
-        id="Overview"
+        id="Contact"
       >
         <span className={Styles.sectionHeadText}>Contact</span>
         <hr className="w-[35%]"></hr>
@@ -66,7 +66,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

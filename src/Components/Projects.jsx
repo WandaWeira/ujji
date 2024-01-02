@@ -8,7 +8,7 @@ import "./styles.css";
 
 const Projects = () => {
   return (
-    <div>
+    <>
       <div
         className="flex-row items-center pl-5 justify-center pt-3"
         id="Projects"
@@ -63,7 +63,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
